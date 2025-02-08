@@ -1,0 +1,58 @@
+.container {
+  padding: 16px; /* Reduces the padding around the container */
+  max-width: 1200px; /* Restrict the maximum width of the container */
+  margin: auto; /* Centers the container */
+  margin-top: 2rem;
+  padding-left: 14rem;
+}
+
+.header {
+  margin-bottom: 40px; 
+  text-align: center;
+}
+
+.table-container {
+  overflow: auto; /* Ensures the table doesn't overflow the container */
+}
+
+
+.MuiTableCell-root {
+  padding: 10px 10px; /* Reduces padding inside table cells */
+}
+
+.MuiTableCell-head {
+  font-size: 14px; /* Reduces font size for headers */
+}
+
+.MuiTableCell-body {
+  font-size: 12px; /* Reduces font size for body cells */
+}
+
+.status-select {
+  font-size: 12px; 
+}
+
+.no-doc {
+  color: red; /* Color for "No Document" text */
+}
+
+h1{
+  font-size: larger;
+  font-weight: bolder;
+}
+
+
+.filter-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 2rem;
+}
+
+.filter-control {
+  min-width: 150px; /* Adjust as needed */
+}
+
+.data-table {
+  margin-top: 1rem;
+}
+
